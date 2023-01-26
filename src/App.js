@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="bg-base-300 ">
       <Navbar/>
+      <HeroSection/>
       <div className="flex flex-row px-24">
       <LoginForm/>
-      <HeroSection/>
     </div>
     </div>
   );
