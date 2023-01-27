@@ -1,17 +1,19 @@
-
-import { HeroSection } from "./HeroSection";
+import Message from "./Message";
+import Typography from "./Typography";
+import Template from "./Template";
+import TextInputs from "./textInputs";
 import "./index.css"
-import { LoginForm } from "./LoginForm";
-import { Navbar } from "./Navbar";
 
 function App() {
   return (
-    <div className="bg-base-300 ">
-      <Navbar/>
-      <HeroSection/>
-      <div className="flex flex-row px-24">
-      <LoginForm/>
-    </div>
+    <div>
+      <h1 class="text-center text-3xl">Design system</h1>
+      <div class="grid grid-cols-2 justify-center justify-items-center gap-20 items-center">
+        <Message/>
+        <Typography/>
+        <Template/>
+        <TextInputs/>
+      </div>
     </div>
   );
 }
