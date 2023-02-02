@@ -1,8 +1,8 @@
-
 import { HeroSection } from "./HeroSection";
-import "./index.css"
 import { LoginForm } from "./LoginForm";
 import { Navbar } from "./Navbar";
+
+import "./index.css"
 
 function App() {
   return (
