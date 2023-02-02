@@ -1,19 +1,18 @@
+import { Navbar } from "./Navbar";
 import { HeroSection } from "./HeroSection";
 import { LoginForm } from "./LoginForm";
-import { Navbar } from "./Navbar";
 
-import "./index.css"
+import "./index.css";
 
-function Homepage() {
+export function Homepage() {
   return (
     <div className="bg-base-300 ">
-      <Navbar/>
-      <HeroSection/>
+      <Navbar />
+      <HeroSection />
       <div className="flex flex-row px-24">
-      <LoginForm/>
-    </div>
+        <LoginForm />
+      </div>
     </div>
   );
 }
 
-export default Homepage;
