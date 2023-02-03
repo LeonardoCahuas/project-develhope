@@ -5,9 +5,8 @@ export function LoginForm() {
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Login now!</h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+          Inserisci i tuoi dati, cerca i tuoi contatti e inizia a chattare con chi vuoi.. 
+          <i class="fa-solid fa-plane"></i>
           </p>
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -38,7 +37,7 @@ export function LoginForm() {
               </label>
             </div>
             <div className="form-control mt-6">
-              <button className="btn btn-primary">Login</button>
+              <button className="btn btn-primary btn-generic">Login</button>
             </div>
           </div>
         </div>

@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-title{
+    color: rgba(19, 57, 117, 0.820);
+    place-items: flex-end;
+    padding: 50px;
+    margin-right: 80px;
+} 
+.btn-scopri-piu{
+    background-color: rgba(19, 57, 117, 0.846);
+    color: white;
+    border: none;
+}
+
+.nav-btns:hover{
+ background-color: rgb(179, 174, 174);
+ color: rgb(136, 36, 136);
+}
+
+.btn-generic{
+    background-color: rgba(19, 57, 117, 0.820);
+    border: none;
+}
+
+.btn-generic:hover{
+    background-color:rgb(136, 36, 136);
+}
+
+.fa-solid{
+    color: rgb(136, 36, 136);
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.volare-text{
+    color: rgb(164, 69, 164);
+}
