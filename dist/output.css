@@ -3044,18 +3044,6 @@ html {
   padding-right: 0.25rem;
 }
 
-.pr-5 {
-  padding-right: 1.25rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -3085,6 +3073,11 @@ html {
 
 .text-5xl {
   font-size: 3rem;
+  line-height: 1;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -3120,7 +3113,6 @@ html {
 .main-title{
   color: rgba(19, 57, 117, 0.820);
   place-items: flex-end;
-  padding: 50px;
   margin-right: 80px;
 }
 

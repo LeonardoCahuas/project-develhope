@@ -10,7 +10,7 @@ export function Homepage() {
       <Navbar />
       <HeroSection />
       <div className="flex flex-row px-24">
-        <LoginForm />
+          <LoginForm />
       </div>
     </div>
   );
