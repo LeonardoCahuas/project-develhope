@@ -1,6 +1,6 @@
 import Spline from "@splinetool/react-spline";
 
-export function HeroSection() {
+export const HeroSection = () => {
   return (
     <div className="hero min-h-screen">
       <div className="hero-overlay bg-opacity-60">

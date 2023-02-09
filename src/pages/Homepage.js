@@ -4,7 +4,7 @@ import { LoginForm } from "./LoginForm";
 
 import "./index.css";
 
-export function Homepage() {
+export const Homepage = () => {
   return (
     <div className="bg-base-300 ">
       <Navbar />

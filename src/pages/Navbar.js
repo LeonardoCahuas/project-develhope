@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-export function Navbar(){
+export const Navbar = () => {
     return (
     <div className="navbar bg-base-100 px-20">
     <div className="navbar-start">
