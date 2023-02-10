@@ -1,3 +1,3 @@
-export const Teampage = () =>{
-
+export function Teampage() {
+return <h1> Hi there!! </h1>
 }

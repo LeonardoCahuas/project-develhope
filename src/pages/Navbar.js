@@ -13,7 +13,7 @@ export const Navbar = () => {
           <li><a className="nav-btns">Tecnologie</a></li>
         </ul>
       </div>
-      <a className="btn btn-ghost nav-btns normal-case text-xl">Flyer<i class="fa-solid fa-plane"></i></a>
+      <a className="btn btn-ghost nav-btns normal-case text-xl">Flyer<i className="fa-solid fa-plane"></i></a>
     </div>
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
