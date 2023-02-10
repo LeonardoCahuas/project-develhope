@@ -6,8 +6,7 @@ import "./index.css";
 
 export const Homepage = () => {
   return (
-    <div className="bg-base-300 ">
-      <Navbar />
+    <div>
       <HeroSection />
       <div className="flex flex-row px-24">
           <LoginForm />
