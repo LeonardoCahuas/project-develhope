@@ -1,6 +1,5 @@
-import { Navbar } from "./Navbar";
 import { HeroSection } from "./HeroSection";
-import { LoginForm } from "./LoginForm";
+import { LoginForm } from "./components/LoginForm";
 
 import "./index.css";
 

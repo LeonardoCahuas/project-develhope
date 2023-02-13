@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Homepage } from "./Homepage";
-import { Navbar } from "./Navbar";
+import { Navbar } from "./components/Navbar";
 import { Teampage } from "./Teampage";
 
 export function AppPages() {

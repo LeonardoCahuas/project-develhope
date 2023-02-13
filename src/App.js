@@ -14,7 +14,7 @@ import {
 
 import "stream-chat-react/dist/css/v2/index.css";
 import "./layout.css";
-import { useClient } from "./useClient";
+import { useClient } from "./utilities/useClient";
 
 /* const chatClient = new StreamChat('q7uvkekbunfw'); */
 
