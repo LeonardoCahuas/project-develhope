@@ -1,7 +1,7 @@
 import { HeroSection } from "./HeroSection";
 import { LoginForm } from "../components/LoginForm";
 
-import "./index.css";
+import "../styles/index.css";
 
 export const Homepage = () => {
   return (
