@@ -13,11 +13,6 @@
     border: none;
 }
 
-.nav-btns:hover{
- background-color: rgb(179, 174, 174);
- color: rgb(136, 36, 136);
-}
-
 .btn-generic{
     background-color: rgba(19, 57, 117, 0.820);
     border: none;
@@ -33,6 +28,3 @@
     font-size: 13px;
 }
 
-.volare-text{
-    color: rgb(164, 69, 164);
-}
