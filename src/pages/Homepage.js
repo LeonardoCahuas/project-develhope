@@ -1,5 +1,5 @@
 import { HeroSection } from "./HeroSection";
-import { LoginForm } from "./components/LoginForm";
+import { LoginForm } from "../components/LoginForm";
 
 import "./index.css";
 
