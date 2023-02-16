@@ -10,8 +10,8 @@ function App() {
       <Navbar/>
       <HeroSection/>
       <div className="flex flex-row px-24">
-      <LoginForm/>
-    </div>
+        <LoginForm/>
+      </div>
     </div>
   );
 }
