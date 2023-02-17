@@ -1,5 +1,7 @@
 import Spline from "@splinetool/react-spline";
 
+import "../styles/herosection.css";
+
 export const HeroSection = () => {
   return (
     <div className="hero min-h-screen">
@@ -14,7 +16,7 @@ export const HeroSection = () => {
           <p className="mb-5 text-xl">
             Fai <strong className="text-xl italic font-mono volare-text">volare</strong> i tuoi messaggi... Inizia una chat con chi vuoi, quando vuoi e dove vuoi!
           </p>
-          <button className="btn btn-primary btn-generic btn-scopri-piu text-sm">Scopri di più</button>
+          <button className="btn btn-primary btn-generic text-sm">Scopri di più</button>
         </div>
       </div>
     </div>

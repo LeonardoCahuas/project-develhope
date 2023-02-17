@@ -1,8 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
-  const {navigate} = useNavigate();
     return (
     <div className="navbar bg-base-100 px-20">
     <div className="navbar-start">

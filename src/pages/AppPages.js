@@ -3,6 +3,9 @@ import { Homepage } from "./Homepage";
 import { Navbar } from "../components/Navbar";
 import { Teampage } from "./Teampage";
 
+import "../styles/index.css";
+import "../styles/navbar.css";
+
 export function AppPages() {
   return (
     <div className="bg-base-300">

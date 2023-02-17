@@ -16,14 +16,10 @@ html {
   place-items: flex-end;
   margin-right: 80px;
 }
-.btn-scopri-piu {
-  background-color: var(--color-blue);
-  color: white;
-  border: none;
-}
 
 .btn-generic {
   background-color: var(--color-blue);
+  color: white;
   border: none;
 }
 
