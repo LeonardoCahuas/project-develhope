@@ -5,6 +5,7 @@
 :root {
   --color-blue: rgba(19, 57, 117, 0.82);
   --color-purple: rgb(136, 36, 136);
+  --color-white: white;
 }
 
 html {
@@ -19,7 +20,7 @@ html {
 
 .btn-generic {
   background-color: var(--color-blue);
-  color: white;
+  color: var(--color-white);
   border: none;
 }
 
