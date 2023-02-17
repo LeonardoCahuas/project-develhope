@@ -1,3 +1,4 @@
+
 export const LoginForm = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
@@ -5,8 +6,9 @@ export const LoginForm = () => {
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Login now!</h1>
           <p className="py-6">
-          Inserisci i tuoi dati, cerca i tuoi contatti e inizia a chattare con chi vuoi.. 
-          <i className="fa-solid fa-plane"></i>
+            Inserisci i tuoi dati, cerca i tuoi contatti e inizia a chattare con
+            chi vuoi..
+            <i className="fa-solid fa-plane"></i>
           </p>
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -16,6 +18,7 @@ export const LoginForm = () => {
                 <span className="label-text">Email</span>
               </label>
               <input
+                id="end-page-login"
                 type="text"
                 placeholder="email"
                 className="input input-bordered"
@@ -44,4 +47,4 @@ export const LoginForm = () => {
       </div>
     </div>
   );
-}
+};

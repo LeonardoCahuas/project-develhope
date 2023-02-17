@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
+  const {navigate} = useNavigate();
     return (
     <div className="navbar bg-base-100 px-20">
     <div className="navbar-start">
@@ -11,7 +12,7 @@ export const Navbar = () => {
         </label>
         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
           <li><Link to="/teampage" className="nav-btns">Team</Link></li>
-          <li><a className="nav-btns">Tecnologie</a></li>
+          {/*<li><a className="nav-btns">Tecnologie</a></li>*/}
         </ul>
       </div>
       <Link to="/" className="btn btn-ghost nav-btns normal-case text-xl">Flyer<i className="fa-solid fa-plane"></i></Link>
@@ -19,11 +20,11 @@ export const Navbar = () => {
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
         <li><Link to="/teampage" className="nav-btns">Team</Link></li>
-        <li><a className="nav-btns">Tecnologie</a></li>
+        {/*<li><a className="nav-btns">Tecnologie</a></li>*/}
       </ul>
     </div>
     <div className="navbar-end">
-      <a className="btn nav-btns">Login</a>
+      <a className="btn nav-btns" href="#end-page-login">Login</a>
     </div>
   </div>
  )}
