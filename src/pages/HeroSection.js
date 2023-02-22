@@ -1,12 +1,50 @@
+import AnimatedCharacters from "../components/AnimatedCharacters";
 import "../styles/herosection.css";
+import {motion} from "framer-motion";
+import { useState } from "react";
 
 export const HeroSection = () => {
+  const [replay, setReplay] = useState(true);
+  // Placeholder text data, as if from API
+  const placeholderText = [
+    { type: "heading1", text: "Una nuova App di Messaggistica!" },
+    {
+      type: "heading2",
+      text: "Fai volare i tuoi messaggi... Inizia una chat!"
+    },
+    {
+      type: "heading2",
+      text: "Con CHI VUOI, QUANDO VUOI e DOVE VUOI!"
+    }
+  ];
+
+  const container = {
+    visible: {
+      transition: {
+        staggerChildren: 0.050,
+      }
+    }
+  };
+
   return (
-    <div className="hero min-h-screen hero-container-all">
-      <div className="hero-overlay bg-opacity-0">
+    <motion.div
+      className="hero min-h-screen hero-container-all"
+      initial="hidden"
+      // animate="visible"
+      animate={replay ? "visible" : "hidden"}
+      variants={container}
+    >
+      <div className="max-w-md flex-end hero-titles-container">
+        {placeholderText.map((item, index) => {
+          return <AnimatedCharacters {...item} key={index} />;
+        })}
       </div>
-      <div className="hero main-title text-right text-neutral-content">
-        <div className="max-w-md flex-end">
+    </motion.div>
+  );
+  {/* return (
+    <div className="hero min-h-screen hero-container-all">
+      <div className="hero main-title text-left text-neutral-content">
+        <div className="max-w-md flex-end hero-titles-container">
           <h1 className="mb-5 text-5xl font-bold">
             Una nuova App di Messaggistica!
           </h1>
@@ -17,6 +55,6 @@ export const HeroSection = () => {
         </div>
       </div>
     </div>
-  );
+  );*/}
 }
 

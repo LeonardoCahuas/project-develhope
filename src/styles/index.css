@@ -14,8 +14,8 @@ html {
 
 .main-title {
   color: var(--color-blue);
-  place-items: flex-end;
-  margin-right: 80px;
+  place-items: flex-start;
+  margin-right: -50px;
 }
 
 .btn-generic {
