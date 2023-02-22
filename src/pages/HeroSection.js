@@ -1,12 +1,9 @@
-import Spline from "@splinetool/react-spline";
-
 import "../styles/herosection.css";
 
 export const HeroSection = () => {
   return (
-    <div className="hero min-h-screen">
-      <div className="hero-overlay bg-opacity-60">
-        <Spline scene="https://prod.spline.design/aCMlCOLalvjKK0GA/scene.splinecode" className="airplane"/>
+    <div className="hero min-h-screen hero-container-all">
+      <div className="hero-overlay bg-opacity-0">
       </div>
       <div className="hero main-title text-right text-neutral-content">
         <div className="max-w-md flex-end">
