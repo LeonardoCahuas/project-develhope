@@ -4,14 +4,16 @@ import { motion } from "framer-motion";
 // Word wrapper
 const Wrapper = (props) => {
   // We'll do this to prevent wrapping of words using CSS
-  return <span className="word-wrapper">{props.children}</span>;
+  return <span className="word-wrapper" style={{
+    alignContent: "left",
+  }}>{props.children}</span>;
 };
 
-// Map API "type" vaules to JSX tag names
+// Map API "type" values to JSX tag names
 const tagMap = {
   paragraph: "p",
   heading1: "h1",
-  heading2: "h2"
+  heading2: "h2",
 };
 
 // AnimatedCharacters
@@ -22,12 +24,14 @@ const AnimatedCharacters = (props) => {
   const item = {
     hidden: {
       y: "200%",
-      color: "#0055FF",
+      color: "#F0F8FF",
+      fontSize: 40,
+      padding: 5,
       transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.85 }
     },
     visible: {
       y: 0,
-      color: "#FF0088",
+      color: "#000080",
       transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.75 }
     }
   };
@@ -62,14 +66,13 @@ const AnimatedCharacters = (props) => {
                 <span
                   style={{
                     overflow: "hidden",
-                    display: "inline-block"
+                    display: "inline-block",
                   }}
-                  key={index}
-                >
+                  key={index}>
+
                   <motion.span
-                    style={{ display: "inline-block" }}
-                    variants={item}
-                  >
+                    style={{ display: "inline-block"}}
+                    variants={item}>
                     {element}
                   </motion.span>
                 </span>

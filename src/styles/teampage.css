@@ -1,8 +1,6 @@
 @import "./index.css";
 
 .team-container{
-    min-width: 100vw;
-    min-height: 100vh;
     padding: 25px;
 }
 

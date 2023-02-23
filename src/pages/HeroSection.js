@@ -1,47 +1,49 @@
 import AnimatedCharacters from "../components/AnimatedCharacters";
 import "../styles/herosection.css";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import { useState } from "react";
 
 export const HeroSection = () => {
   const [replay, setReplay] = useState(true);
   // Placeholder text data, as if from API
   const placeholderText = [
-    { type: "heading1", text: "Una nuova App di Messaggistica!" },
     {
-      type: "heading2",
-      text: "Fai volare i tuoi messaggi... Inizia una chat!"
+      type: "heading1",
+      text: "Una nuova App di Messaggistica!",
     },
     {
       type: "heading2",
-      text: "Con CHI VUOI, QUANDO VUOI e DOVE VUOI!"
-    }
+      text: "Inizia una chat e fai VOLARE i tuoi messaggi... ",
+    },
   ];
 
   const container = {
     visible: {
       transition: {
-        staggerChildren: 0.050,
-      }
-    }
+        staggerChildren: 0.05,
+      },
+    },
   };
 
   return (
     <motion.div
-      className="hero min-h-screen hero-container-all"
+      className="hero hero-container-all"
       initial="hidden"
       // animate="visible"
       animate={replay ? "visible" : "hidden"}
-      variants={container}
-    >
-      <div className="max-w-md flex-end hero-titles-container">
+      variants={container}>
+      <div className="text-left flex ml-12 hero-titles-container">
+      <div className="flex-col">
+      <div className="plane-icon text-2xl mb-24"><i className="fa-solid fa-plane"></i></div>
         {placeholderText.map((item, index) => {
-          return <AnimatedCharacters {...item} key={index} />;
+          return (<div className="text-4xl pt-8 font-light"><AnimatedCharacters {...item} key={index} /></div>);
         })}
+      </div>
       </div>
     </motion.div>
   );
-  {/* return (
+  {
+    /* return (
     <div className="hero min-h-screen hero-container-all">
       <div className="hero main-title text-left text-neutral-content">
         <div className="max-w-md flex-end hero-titles-container">
@@ -55,6 +57,6 @@ export const HeroSection = () => {
         </div>
       </div>
     </div>
-  );*/}
-}
-
+  );*/
+  }
+};

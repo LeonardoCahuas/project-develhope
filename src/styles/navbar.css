@@ -1,6 +1,11 @@
 @import "./index.css";
 
-.nav-btns:hover {
-  background-color: rgb(179, 174, 174);
+.navbar-btns{
+  color: rgb(231, 227, 227);
+  border: none;
+}
+
+.navbar-btns:hover {
+  background-color: rgb(231, 227, 227);
   color: var(--color-purple);
 }

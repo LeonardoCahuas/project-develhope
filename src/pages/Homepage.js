@@ -7,7 +7,7 @@ export const Homepage = () => {
   return (
     <div>
       <HeroSection />
-      <div className="flex flex-row px-24">
+      <div className="flex">
         <LoginForm />
       </div>
       <Cards />

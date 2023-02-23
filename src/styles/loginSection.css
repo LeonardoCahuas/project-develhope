@@ -1,0 +1,11 @@
+@import "./index.css";
+
+.login-section-container{
+    min-height: 800px;
+    display: flex;
+    justify-content: right;
+}
+
+.login-form-container{
+    width: 900px;
+}

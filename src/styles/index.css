@@ -3,13 +3,24 @@
 @tailwind utilities;
 
 :root {
-  --color-blue: rgba(19, 57, 117, 0.82);
+  --color-blue: rgba(5, 41, 99, 0.82);
   --color-purple: rgb(136, 36, 136);
   --color-white: white;
 }
 
+html,
+body{
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+h1 {
+  color:var(--color-blue);
 }
 
 .main-title {
@@ -31,5 +42,5 @@ html {
 .fa-solid {
   color: var(--color-purple);
   margin-left: 10px;
-  font-size: 13px;
+  font-size: 20px;
 }
