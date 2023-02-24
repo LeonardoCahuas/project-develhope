@@ -3,20 +3,44 @@ import Bianca from "../images/Bianca.jpeg";
 
 export function Teampage() {
   return (
-      <div className="team-container text-center">
-        <h2 className="team-title ">
-          Flyer<span className="s-flyers italic">S</span>
-        </h2>
+      <div className="team-container min-w-full flex flex-row items-center">
         {/* <h3>⏬️ Space to introduce our team 😎 ⏬️</h3>*/}
-        <div className="avatar-about-container flex flex-row items-center mx-5">
+        <div className="avatar-about-container flex flex-row items-center">
+          <div className="avatar mt-5">
+            <div className="w-32 mask mask-hexagon">
+              <img src={Bianca} alt="Avatar Bianca"/>
+            </div>
+          </div>
+          <div className="about p-5 mt-5 text-left">
+            <h3 className="name-avatar-title font-bold mb-2"> Leonardo  
+            <br />
+            <span className="text-xs font-light">Junior Full Stack Developer</span> </h3>
+            <a href="https://github.com/LeonardoCahuas" className="mx-2" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/leonardo-cahuas-867162261/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div className="avatar mt-5">
+            <div className="w-32 mask mask-hexagon">
+              <img src={Bianca} alt="Avatar Bianca"/>
+            </div>
+          </div>
+          <div className="about p-5 mt-5 text-left">
+            <h3 className="name-avatar-title font-bold mb-2"> Bianca 
+            <br />
+            <span className="text-xs font-light">Junior Full Stack Developer</span></h3>
+            <a href="https://github.com/biancafrancini?tab=repositories" target="_blank" className="mx-2"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/bianca-francini/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
           <div className="avatar mt-5">
             <div className="w-32 mask mask-hexagon">
               <img src={Bianca} alt="Avatar Bianca"/>
             </div>
           </div>
           <div className="about p-10 mt-5 text-left">
-            <h3 className="name-avatar-title font-bold mb-2"> Bianca - Junior Full Stack Developer 🙌🏻</h3>
-                <p>Determinata e curiosa fin da piccola, affronto sempre le sfide con grande entusiasmo, positività e un’incredibile voglia di fare. Così, dopo una formazione da storica dell’Arte, mi sono poi approcciata al mondo della programmazione, che è diventata ormai la mia principale passione. </p>
+            <h3 className="name-avatar-title font-bold mb-2"> Yari 
+            <br />
+            <span className="text-xs font-light">Junior Full Stack Developer</span> </h3>
+            <a href="https://github.com/Yaricherchi7" target="_blank" className="mx-2"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yari-cherchi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
           </div>
         </div>
       </div>

@@ -1,18 +1,8 @@
 @import "./index.css";
 
 .team-container{
-    padding: 25px;
+    margin-top: 200px;
 }
-
-.team-title{
-    color: var(--color-white);
-    font-size: 58px;
-}
-
-.s-flyers{
-    color: var(--color-purple);
-}
-
 .name-avatar-title{
     color: var(--color-white);
 }
