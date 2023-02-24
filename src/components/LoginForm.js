@@ -3,9 +3,9 @@ import "../styles/loginSection.css";
 export const LoginForm = () => {
   return (
     <div className="hero mr-56 login-section-container">
-      <div className="hero-content login-form-container max-w-screen flex-col lg:flex-row-reverse">
+      <div className="hero-content login-container max-w-screen flex-col lg:flex-row-reverse">
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl">
-          <div className="card-body">
+          <div className="card-body form-body-container">
             <div className="form-control" id="end-page-login">
               <label className="label">
                 <span className="label-text">Email</span>
@@ -16,7 +16,7 @@ export const LoginForm = () => {
                 className="input input-bordered"
               />
             </div>
-            <div className="form-control">
+            <div className="form-control form-container">
               <label className="label">
                 <span className="label-text">Password</span>
               </label>
@@ -26,15 +26,15 @@ export const LoginForm = () => {
                 className="input input-bordered"
               />
             </div>
-            <div className="form-control flex flex-row mt-6">
+            <div className="form-control flex flex-row mt-12 items-start max-w-fit">
               <button className="btn btn-primary btn-generic">Login</button>
-              <span className="text-base mt-3 mx-4"> oppure </span>
-              <button className="btn btn-primary btn-generic">Registrati</button>
+              <div className="text-base mt-3 mx-4"> Oppure </div>
+              <button className="btn btn-primary btn-generic">Registrati ora</button>
             </div>
           </div>
         </div>
-        <div className="lg:text-left">
-          <h2 className="text-5xl mr-28 font-bold"> Login now <span className="ml-4"><i className="fa-solid fa-plane"></i></span></h2>
+        <div className="flex flex-row items-center inizia-chat-text-container">
+          <h2 className="text-4xl font-bold"> Inizia una chat <span classname=""><i className="fa-solid fa-plane"></i></span></h2>
         </div>
       </div>
     </div>

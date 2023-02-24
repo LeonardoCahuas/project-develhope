@@ -29,7 +29,7 @@ function CardAnimated({ emoji, hueA, hueB }) {
       viewport={{ once: true, amount: 0.8 }}
     >
       <div className="splash" style={{ background }} />
-      <motion.div className="card" variants={cardVariants}>
+      <motion.div className="card-information-container" variants={cardVariants}>
         {emoji}
       </motion.div>
     </motion.div>
