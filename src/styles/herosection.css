@@ -1,9 +1,5 @@
 @import "./index.css";
 
-.volare-text {
-  color: rgb(164, 69, 164);
-}
-
 .hero-container-all {
   display: flex;
   justify-content: left;

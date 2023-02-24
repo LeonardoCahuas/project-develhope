@@ -18,8 +18,8 @@ const cardVariants= {
 
 const hue = (h) => `hsl(${h}, 100%, 50%)`;
 
-function CardAnimated({ emoji, hueA, hueB }) {
-  const background = `linear-gradient(306deg, ${hue(hueA)}, ${hue(hueB)})`;
+function CardAnimated({ text, hueA, hueB }) {
+  const background = `linear-gradient(300deg, ${hue(hueA)}, ${hue(hueB)})`;
 
   return (
     <motion.div
@@ -30,25 +30,21 @@ function CardAnimated({ emoji, hueA, hueB }) {
     >
       <div className="splash" style={{ background }} />
       <motion.div className="card-information-container" variants={cardVariants}>
-        {emoji}
+        {text}
       </motion.div>
     </motion.div>
   );
 }
 
-const food = [
-  ["🍅", 340, 10],
-  ["🍊", 20, 40],
-  ["🍋", 60, 90],
-  ["🍐", 80, 120],
-  ["🍏", 100, 140],
-  ["🫐", 205, 245],
-  ["🍆", 260, 290],
-  ["🍇", 290, 320]
+const info = [
+  ["Scrivi un messaggio a chi vuoi 💌 quando vuoi ⏱️ e da dove vuoi 🌏 ", 217, 300],
+  ["Flyer ✈️  invia per te testi, immagini e video in un battito d'ali 💥", 300, 217],
+  ["Non ci sono limiti di risoluzione...  Flyer ✈️ puó inviare per te qualsiasi tipologia di file!", 217, 300],
+  ["Non c'é meta che Flyer ✈️  non possa raggiungere 😎", 300, 217],
 ];
 
 export const Cards = () => {
-  return food.map(([emoji, hueA, hueB]) => (
-    <CardAnimated emoji={emoji} hueA={hueA} hueB={hueB} key={emoji} />
+  return info.map(([text, hueA, hueB]) => (
+    <CardAnimated text={text} hueA={hueA} hueB={hueB} key={text} />
   ));
 }

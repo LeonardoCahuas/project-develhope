@@ -1,6 +1,10 @@
+  @import "./index.css";
+  
   .card-information-container {
-    font-size: 164px;
-    width: 300px;
+    font-size: 38px;
+    color: hsl(300, 75%, 25%);
+    padding: 0 100px 0 100px;
+    width: 800px;
     height: 430px;
     display: flex;
     align-items: center;

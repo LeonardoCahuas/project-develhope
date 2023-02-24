@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --color-blue: rgba(5, 41, 99, 0.82);
-  --color-purple: rgb(136, 36, 136);
+  --color-blue: hsla(217, 90%, 20%, 0.82);
+  --color-purple: hsl(300, 58%, 34%);
   --color-white: white;
 }
 
