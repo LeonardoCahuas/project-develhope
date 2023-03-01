@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 :root {
   --color-blue: hsla(217, 90%, 20%, 0.82);
   --color-purple: hsl(300, 58%, 34%);

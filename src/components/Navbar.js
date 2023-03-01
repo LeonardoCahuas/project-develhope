@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     return (
-    <div className="navbar flex flex-row bg-base-100 px-20">
+    <div className="navbar flex flex-row bg-base-100 px-8">
     <div className="navbar-start">
       <div className="dropdown">
         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -14,9 +14,9 @@ export const Navbar = () => {
           <li className="nav-btns">Cosa puoi fare con FLYER</li>
         </ul>
       </div>
-      <Link to="/" className="btn btn-ghost nav-btns navbar-btns normal-case text-xl">Flyer<i className="fa-solid fa-plane"></i></Link>
+      <Link to="/" className="btn btn-ghost nav-btns navbar-btns normal-case ml-2 text-xl">Flyer<i className="fa-solid fa-plane"></i></Link>
     </div>
-    <div className="navbar-end">
+    <div className="navbar-end full-screen-navbar">
       <a className="btn nav-btns navbar-btns bg-base-100" href="#end-page-login">Registrati</a>
       <a className="btn nav-btns navbar-btns bg-base-100 mx-3" href="#end-page-login">Login</a>
     </div>

@@ -9,3 +9,10 @@
   background-color: rgb(231, 227, 227);
   color: var(--color-purple);
 }
+
+@media (max-width: 1020px){
+
+.full-screen-navbar{
+  visibility: hidden;
+}
+}

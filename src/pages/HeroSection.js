@@ -33,7 +33,7 @@ export const HeroSection = () => {
       animate={replay ? "visible" : "hidden"}
       variants={container}>
       <div className="text-left flex ml-12 hero-titles-container">
-      <div className="flex-col">
+      <div className="flex-col titles-container">
         <h1 className="mb-8 text-5xl font-bold">
             Una nuova App di Messaggistica!
           </h1>

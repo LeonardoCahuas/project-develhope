@@ -5,6 +5,7 @@
   justify-content: left;
   background-color: rgb(255, 254, 255);
   height: 800px;
+  width: 100vw;
 }
 
 .plane-icon {
