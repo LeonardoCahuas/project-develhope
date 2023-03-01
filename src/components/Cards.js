@@ -37,7 +37,7 @@ function CardAnimated({ text, hueA, hueB }) {
 }
 
 const info = [
-  ["Scrivi un messaggio a chi vuoi 💌 quando vuoi ⏱️ e da dove vuoi 🌏 ", 217, 300],
+  ["Scrivi un messaggio quando vuoi ⏱️ e da dove vuoi 🌏 ", 217, 300],
   ["Flyer ✈️  invia per te testi, immagini e video in un battito d'ali 💥", 300, 217],
   ["Non ci sono limiti di risoluzione...  Flyer ✈️ puó inviare per te qualsiasi tipologia di file!", 217, 300],
   ["Non c'é meta che Flyer ✈️  non possa raggiungere 😎", 300, 217],

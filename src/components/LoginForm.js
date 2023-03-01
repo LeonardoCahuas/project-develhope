@@ -2,7 +2,7 @@ import "../styles/loginSection.css";
 
 export const LoginForm = () => {
   return (
-    <div className="hero mr-56 login-section-container">
+    <div className="hero login-section-container">
       <div className="hero-content login-container max-w-screen flex-col lg:flex-row-reverse">
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl">
           <div className="card-body form-body-container">
