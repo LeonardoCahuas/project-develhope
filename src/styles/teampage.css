@@ -2,6 +2,7 @@
 
 .team-container{
     margin-top: 200px;
+    justify-content: center; 
 }
 .name-avatar-title{
     color: var(--color-white);
