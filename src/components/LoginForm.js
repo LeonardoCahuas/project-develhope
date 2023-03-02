@@ -2,9 +2,9 @@ import "../styles/loginSection.css";
 
 export const LoginForm = () => {
   return (
-    <div className="hero login-section-container">
-      <div className="hero-content login-container max-w-screen flex-col lg:flex-row-reverse">
-        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl">
+    <div className="hero flex login-section-container">
+      <div className="hero-content login-container max-w-screen flex flex-col lg:flex-row-reverse">
+        <div className="card flex-shrink-0 max-w-sm shadow-2xl">
           <div className="card-body form-body-container">
             <div className="form-control" id="end-page-login">
               <label className="label">
@@ -33,9 +33,9 @@ export const LoginForm = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row items-center inizia-chat-text-container">
+       {/* <div className="flex flex-row items-center inizia-chat-text-container">
           <h2 className="text-4xl font-bold"> Inizia una chat <span classname=""><i className="fa-solid fa-plane"></i></span></h2>
-        </div>
+        </div>*/} 
       </div>
     </div>
   );

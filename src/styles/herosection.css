@@ -8,6 +8,10 @@
   width: 100vw;
 }
 
+.titles-container{
+  max-width: 800px;
+}
+
 .plane-icon {
   width: 150px;
   color: white;

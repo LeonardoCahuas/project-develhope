@@ -1,9 +1,8 @@
 @import "./index.css";
 
 .login-section-container{
-    min-height: 700px;
+    min-height: 600px;
     display: flex;
-    justify-content: right;
 }
 
 .form-body-container{
@@ -12,6 +11,3 @@
     border-radius: 20px;
 }
 
-.inizia-chat-text-container{
-    width: 400px;
-}
