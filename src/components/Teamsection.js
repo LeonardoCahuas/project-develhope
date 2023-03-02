@@ -1,4 +1,4 @@
-import "../styles/teampage.css";
+import "../styles/teamsection.css";
 import Bianca from "../images/Bianca.jpeg";
 
 export function Teampage() {

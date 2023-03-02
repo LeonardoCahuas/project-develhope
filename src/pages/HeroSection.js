@@ -24,14 +24,14 @@ export const HeroSection = () => {
 
   return (
     <motion.div
-      className="hero hero-container-all"
+      className="hero hero-container-all mb-10"
       initial="hidden"
       //animate="visible"
       animate={replay ? "visible" : "hidden"}
       variants={container}>
       <div className="text-left flex flex-wrap items-center hero-titles-container">
-      <div className="flex-col titles-container">
-        <h1 className="mb-2 text-4xl font-bold">
+      <div className="flex-col titles-container mx-14">
+        <h1 className="mb-2 text-5xl font-bold">
             Una nuova App di Messaggistica!
           </h1>
         {placeholderText.map((item, index) => {
@@ -39,6 +39,7 @@ export const HeroSection = () => {
         })}
         <div className="plane-icon text-2xl mb-24"><i className="fa-solid fa-plane"></i></div>
       </div>
+      <div className="empty-div visible"></div>
       <div className="flex flex-wrap">
         <LoginForm />
       </div>

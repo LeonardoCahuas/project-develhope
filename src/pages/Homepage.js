@@ -1,6 +1,6 @@
 import { HeroSection } from "./HeroSection";
 import { Cards } from "../components/Cards";
-import { Teampage } from "./Teampage";
+import { Teampage } from "../components/Teamsection";
 
 import "../styles/index.css";
 
