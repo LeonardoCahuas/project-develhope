@@ -6,8 +6,8 @@ const cardVariants= {
     y: 300
   },
   onscreen: {
-    y: 50,
-    rotate: -10,
+    y: 30,
+    rotate: -8,
     transition: {
       type: "spring",
       bounce: 0.4,
@@ -23,7 +23,7 @@ function CardAnimated({ text, hueA, hueB }) {
 
   return (
     <motion.div
-      className="card-container pt-18 pb-5"
+      className="card-container"
       initial="offscreen"
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.8 }}
