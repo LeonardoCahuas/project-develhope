@@ -35,7 +35,7 @@ export const HeroSection = () => {
             Una nuova App di Messaggistica!
           </h1>
         {placeholderText.map((item, index) => {
-          return (<div className="text-2xl pt-8 font-light"><AnimatedCharacters {...item} key={index} /></div>);
+          return (<div className="text-2xl pt-8 font-light animated-characters-container"><AnimatedCharacters {...item} key={index} /></div>);
         })}
         <div className="plane-icon text-2xl mb-24"><i className="fa-solid fa-plane"></i></div>
       </div>

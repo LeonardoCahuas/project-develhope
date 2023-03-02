@@ -24,6 +24,7 @@ function CardAnimated({ text, hueA, hueB }) {
   return (
     <motion.div
       className="card-container"
+      id="about"
       initial="offscreen"
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.8 }}

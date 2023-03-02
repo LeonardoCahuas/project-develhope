@@ -18,7 +18,6 @@ width: 130px;
 
 .plane-icon {
   width: 150px;
-  color: white;
   text-align: left;
   position: absolute;
   left: 5;
@@ -36,3 +35,49 @@ width: 130px;
       transform: translateX(calc(60vw - 100%));
     }
   }
+
+
+
+@media (max-width: 1024px) {
+
+  .titles-container > h1{
+      font-size: 30px;
+      text-align: center;
+      margin-top: 10px;
+      padding: 10px;
+  }
+
+  .animated-characters-container{
+    display: none;
+  }
+
+  .empty-div{
+    display: none;
+    }
+
+  .titles-container{
+    justify-content: center;
+  }
+
+  .plane-icon {
+    width: 240px;
+    height: 100px;
+    margin-bottom: 0;
+    top: 160px;
+    left: 45px;
+    animation: 2.5s ease-in-out alternate infinite swingViewport;
+    font-family: sans-serif;
+  }
+
+  @keyframes swingViewport {
+    from {
+      transform: rotate(0);
+      transform: translateX(100);
+    }
+    to {
+      transform: rotate(9rad);
+      translate: translateX(calc(100vw - 100%));
+    }
+  }
+  
+}

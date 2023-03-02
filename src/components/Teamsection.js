@@ -10,7 +10,7 @@ export function Teampage() {
   ]
 
   return (
-      <div className="team-container flex flex-row items-center">
+      <div className="team-container flex flex-row items-center" id="team">
         {/* <h3>⏬️ Space to introduce our team 😎 ⏬️</h3>*/}
         {teamMembers.map((person, index) => <div key={person.name + index} className="avatar-about-container flex flex-row items-center my-10">
           <div className="avatar">

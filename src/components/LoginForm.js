@@ -27,9 +27,9 @@ export const LoginForm = () => {
               />
             </div>
             <div className="form-control flex flex-row mt-12 items-start max-w-fit">
-              <button className="btn btn-primary btn-generic">Login</button>
+              <button className="btn btn-primary btn-generic form-control-btn">Login</button>
               <div className="text-base mt-3 mx-4"> Oppure </div>
-              <button className="btn btn-primary btn-generic">Registrati ora</button>
+              <button className="btn btn-primary btn-generic form-control-btn">Registrati ora</button>
             </div>
           </div>
         </div>
