@@ -23,7 +23,7 @@ function CardAnimated({ text, hueA, hueB }) {
 
   return (
     <motion.div
-      className="card-container pt-12 pb-10"
+      className="card-container pt-18 pb-5"
       initial="offscreen"
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.8 }}
@@ -35,11 +35,11 @@ function CardAnimated({ text, hueA, hueB }) {
     </motion.div>
   );
 }
-
+ 
 const info = [
-  ["Scrivi un messaggio quando vuoi ⏱️ e da dove vuoi 🌏 ", 217, 300],
-  ["Messaggi, audio, immagini, video... Flyer ✈️ non ha limiti di risoluzione!",300, 217 ],
-  ["Non c'é meta che Flyer ✈️  non possa raggiungere 😎", 217, 300],
+  ["Scrivi un messaggio quando vuoi ⏱️ e da dove vuoi 🌏 "],
+  ["Entra nel tuo canale e inizia una chat con chi vuoi  💌"],
+  ["Non c'é meta che Flyer ✈️  non possa raggiungere 😎"],
 ];
 
 export const Cards = () => {

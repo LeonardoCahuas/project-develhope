@@ -1,8 +1,8 @@
-import AnimatedCharacters from "../components/AnimatedCharacters";
+import AnimatedCharacters from "./AnimatedCharacters";
 import "../styles/herosection.css";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { LoginForm } from "../components/LoginForm";
+import { LoginForm } from "./LoginForm";
 
 export const HeroSection = () => {
   const [replay, setReplay] = useState(true);
@@ -30,7 +30,7 @@ export const HeroSection = () => {
       animate={replay ? "visible" : "hidden"}
       variants={container}>
       <div className="text-left flex flex-wrap items-center hero-titles-container">
-      <div className="flex-col titles-container mx-14">
+      <div className="flex-col titles-container">
         <h1 className="mb-2 text-5xl font-bold">
             Una nuova App di Messaggistica!
           </h1>

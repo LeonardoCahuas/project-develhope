@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import { Homepage } from "./Homepage";
-import { Navbar } from "../components/Navbar";
-import { Teampage } from "../components/Teamsection";
+import { Homepage } from "./pages/Homepage";
+import { Navbar } from "./components/Navbar";
+import { Teampage } from "./components/Teamsection";
 
-import "../styles/index.css";
-import "../styles/navbar.css";
+import "./styles/index.css";
+import "./styles/navbar.css";
 
 export function AppPages() {
   return (
