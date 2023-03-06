@@ -14,6 +14,7 @@
 
 .empty-div{
 width: 130px;
+height: 80px;
 }
 
 .plane-icon {
@@ -32,17 +33,20 @@ width: 130px;
       transform: translateX(0);
     }
     to {
-      transform: translateX(calc(70vw - 100%));
+      transform: translateX(calc(100vw - 100%));
     }
   }
 
+@media screen and (min-width: 280px) and (max-width: 700px) {
 
-@media (max-width: 700px) {
+  .hero-container-all{
+    height: 500px;
+  }
 
   .titles-container > h1{
       font-size: 30px;
       text-align: center;
-      margin-top: 10px;
+      margin: 20px 0;
       padding: 10px;
   }
 
@@ -52,31 +56,74 @@ width: 130px;
 
   .empty-div{
     display: none;
-    }
+  }
 
   .titles-container{
     justify-content: center;
   }
 
+  .inizia-chat-container{
+   justify-content: center;
+   margin: 0 auto;
+   margin-top: 50px;
+  }
+
+  .inizia-chat-container > button{
+    font-size: 12px;
+  }
+
+  .plane-under-words{
+    transform: rotate(90deg);
+  }
+
   .plane-icon {
-    width: 240px;
-    height: 100px;
-    margin-bottom: 0;
-    top: 160px;
-    left: 45px;
-    animation: 2.5s ease-in-out alternate infinite swingViewport;
-    font-family: sans-serif;
+    width: 90px;
+    left: 140px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    animation: 3s ease-in-out infinite swingViewport;
   }
 
   @keyframes swingViewport {
-    from {
-      transform: rotate(0);
-      transform: translateX(100);
-    }
     to {
-      transform: rotate(9rad);
-      translate: translateX(calc(100vw - 100%));
+      transform: rotate(-359deg);
     }
   }
   
+}
+
+
+@media screen and (min-width: 700px) and(max-width: 1000px) {
+
+  .titles-container{
+    text-align: center;
+    margin: 0 50px;
+  }
+
+  .titles-container > h1{
+      font-size: 48px;
+      margin: 50px auto;
+  }
+
+  .empty-div{
+    display: none;
+  }
+
+  .inizia-chat-container{
+    justify-content: center;
+    margin: 30px auto;
+  }
+ 
+   .inizia-chat-container > button{
+     font-size: 20px;
+   }
+
+   .plane-under-words{
+    transform: rotate(90deg);
+  }
+
+  .plane-icon {
+    left: 350px;
+    margin-top: -20px;
+  }
 }

@@ -2,7 +2,7 @@ import AnimatedCharacters from "./AnimatedCharacters";
 import "../styles/herosection.css";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { LoginForm } from "./LoginForm";
+//import { LoginForm } from "./LoginForm";
 
 export const HeroSection = () => {
   const [replay, setReplay] = useState(true);
@@ -37,11 +37,14 @@ export const HeroSection = () => {
         {placeholderText.map((item, index) => {
           return (<div className="text-2xl pt-8 font-light animated-characters-container"><AnimatedCharacters {...item} key={index} /></div>);
         })}
-        <div className="plane-icon text-2xl mb-24"><i className="fa-solid fa-plane"></i></div>
+        <div className="plane-icon text-2xl mb-24"><i className="fa-solid fa-plane plane-under-words"></i></div>
       </div>
       <div className="empty-div visible"></div>
-      <div className="flex flex-wrap">
+      {/*<div className="flex flex-wrap">
         <LoginForm />
+      </div>*/}
+      <div className="inizia-chat-container items-center py-12">
+      <button className="btn btn-primary btn-generic">Inizia una chat</button>
       </div>
       </div>
     </motion.div>

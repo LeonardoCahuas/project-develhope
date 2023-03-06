@@ -8,3 +8,9 @@
 .name-avatar-title{
     color: var(--color-white);
 }
+
+@media (min-width: 700px) and (max-width: 1400px){
+    .team-container{
+        flex-wrap: nowrap;
+    } 
+}

@@ -38,8 +38,8 @@ function CardAnimated({ text, hueA, hueB }) {
 }
  
 const info = [
-  ["Scrivi un messaggio quando vuoi ⏱️ e da dove vuoi 🌏 "],
   ["Entra nel tuo canale e inizia una chat con chi vuoi  💌"],
+  ["Scrivi un messaggio quando vuoi ⏱️ e da dove vuoi 🌏 "],
   ["Non c'é meta che Flyer ✈️  non possa raggiungere 😎"],
 ];
 
