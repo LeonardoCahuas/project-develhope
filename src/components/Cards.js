@@ -39,8 +39,9 @@ function CardAnimated({ text, hueA, hueB }) {
  
 const info = [
   ["Entra nel tuo canale e inizia una chat con chi vuoi  💌"],
-  ["Scrivi un messaggio quando vuoi ⏱️ e da dove vuoi 🌏 "],
-  ["Non c'é meta che Flyer ✈️  non possa raggiungere 😎"],
+  ["Scrivi un messaggio quando vuoi ⏱️ e da dove vuoi 📲 "],
+  ["Messaggi sicuri e cryptografati 😎"],
+  ["Non c'é meta che Flyer ✈️  non possa raggiungere 🌏"],
 ];
 
 export const Cards = () => {
