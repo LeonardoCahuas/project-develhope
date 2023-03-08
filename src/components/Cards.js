@@ -40,7 +40,7 @@ function CardAnimated({ text, hueA, hueB }) {
 const info = [
   ["Entra nel tuo canale e inizia una chat con chi vuoi  💌"],
   ["Scrivi un messaggio quando vuoi ⏱️ e da dove vuoi 📲 "],
-  ["Messaggi sicuri e cryptografati 😎"],
+  ["Messaggi sicuri e crittografati 😎"],
   ["Non c'é meta che Flyer ✈️  non possa raggiungere 🌏"],
 ];
 
