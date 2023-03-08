@@ -1,12 +1,14 @@
 import "../styles/teamsection.css";
-import Bianca from "../images/Bianca.jpeg";
+import Bianca from "../images/Bianca.jpg";
+import Yari from "../images/Yari.png";
+import Leonardo from "../images/Leonardo.png";
 
 export function Teampage() {
 
   const teamMembers = [
-    {name: "Leonardo", gitLink: "https://github.com/LeonardoCahuas", linkedinLink: "https://www.linkedin.com/in/leonardo-cahuas-867162261/", icon:""},
+    {name: "Leonardo", gitLink: "https://github.com/LeonardoCahuas", linkedinLink: "https://www.linkedin.com/in/leonardo-cahuas-867162261/", icon: Leonardo},
     {name: "Bianca", gitLink: "https://github.com/biancafrancini", linkedinLink: "https://www.linkedin.com/in/bianca-francini/", icon: Bianca},
-    {name: "Yari", gitLink: "https://github.com/Yaricherchi7", linkedinLink: "https://www.linkedin.com/in/yari-cherchi/", icon:""}
+    {name: "Yari", gitLink: "https://github.com/Yaricherchi7", linkedinLink: "https://www.linkedin.com/in/yari-cherchi/", icon: Yari}
   ]
 
   return (
