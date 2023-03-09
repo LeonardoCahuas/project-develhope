@@ -1,7 +1,7 @@
 import AnimatedCharacters from "./AnimatedCharacters";
 import "../styles/herosection.css";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, Link } from "react";
 //import { LoginForm } from "./LoginForm";
 
 export const HeroSection = () => {
@@ -44,7 +44,7 @@ export const HeroSection = () => {
         <LoginForm />
       </div>*/}
       <div className="inizia-chat-container items-center py-12">
-      <button className="btn btn-primary btn-generic">Inizia una chat</button>
+      <a href="http://localhost:3002"><button className="btn btn-primary btn-generic">Inizia una chat</button></a>
       </div>
       </div>
     </motion.div>
